@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: aqua;
+    text-align: center;
+}
+.container{
+    height: 70vh;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.Box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    color: brown;
+    font-size: 8vmin;
+    background-color: white;
+    cursor: pointer;
+}
+
+.Box:hover{
+    background-color: rgb(190, 45, 45);
+    color: black;
+}
+
+#reset{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset-button{
+    color: white;
+    font-size: 1.50rem;
+    width: 120px;
+    border-radius: 20px;
+    height: 50px;
+    padding-top: 10px;
+    background-color: rgb(46, 22, 22);
+    cursor: pointer;
+}
+
+.reset-button:hover{
+    background-color: yellow;
+    color:black;
+}
+
+
+.main-container{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.game-winner{
+    font-size: 4.5vw;
+    color: white;
+    opacity: 0;
+}
+
+
+.new-Game{
+    color: white;
+    font-size: 1.25rem;
+    width: 120px;
+    border-radius: 20px;
+    height: 50px;
+    padding-top: 10px;
+    background-color: rgb(46, 22, 22); 
+    opacity: 0; 
+    cursor: pointer;
+}
+
+.new-Game:hover{
+    background-color: yellow;
+    color:black;
+} 
